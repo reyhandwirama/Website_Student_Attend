@@ -1,13 +1,16 @@
 # Website_Student_Attend
 
-<p style="text-align:center"><img src="img.jpg"></p>
+<p align="center"><img src="img.png"></p>
 
 
 # Form Login
-<p style="text-align:center"><img src="img2.jpg"></p>
+<p align="center"><img src="img2.png"></p>
 
 # Menu Utama
-<p style="text-align:center"><img src="img3.jpg"></p>
+<p align="center"><img src="img.png"></p>
+
+# Tabel Absensi
+<p align="center"><img src="img4.png"></p>
 
 
 # Fitur-Fitur yang ada pada Website :
