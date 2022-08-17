@@ -1,0 +1,1003 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+/* Style Login */
+.container {
+    width: 50%;
+    height: 400px;
+    margin: 80px auto;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(253, 253, 253, 0.3)), #8422C2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.header img {
+    height: 55px;
+
+}
+
+.form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form label {
+    padding-left: 5%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form input {
+    margin: 10px 10px 10px 10px;
+    padding-left: 8px;
+    width: 90%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 1% 0 8%;
+}
+
+.button button {
+    margin-right: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submit {
+    flex: 1;
+    background-color: #3E4EDE;
+
+}
+
+.reset {
+    flex: 1;
+    background-color: #DE5252;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0303EE;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+
+.footer p {
+    margin-top: 8px;
+    font-size: 12px;
+    opacity: 50%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Akhir Style Login */
+
+/* Style Tampilan member */
+
+.container-member {
+    display: flex;
+    width: 100%;
+    height: 618px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.header-member {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(253, 253, 253, 0.3)), #8422C2;
+    flex-direction: row;
+}
+
+.header-member img {
+    height: 44px;
+    padding: 2px;
+}
+
+.fotokanan {
+    display: flex;
+    width: 3%;
+
+
+}
+
+.fotokanan img {
+    border-radius: 100%;
+    margin-top: 8px;
+    height: 35px;
+    width: 35px;
+}
+
+.logo {
+    display: flex;
+    width: 96%;
+}
+
+.logo p {
+    font-size: 1.3rem;
+    padding: 14px 10px 10px 4px;
+}
+
+.sidebar-member {
+    width: 25%;
+    height: 568px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(253, 253, 253, 0.3)), #D38A52;
+}
+
+.body-member {
+    width: 75%;
+    height: 568px;
+    background-color: green;
+}
+
+.button-navigasi {
+    top: 0.55rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    padding: 13px 10px 0px 13px;
+    height: 21px;
+}
+
+.button-navigasi .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sidebar-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-member a {
+    text-decoration: none;
+}
+
+.foto-member {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-member p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.foto-member img {
+    height: 60px;
+    width: 60px;
+    border: white solid 4px;
+    border-radius: 100%;
+}
+
+.dashboard {
+    margin-top: 25px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 1px 2px 4px;
+
+}
+
+.button-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button-sidebar p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: white solid 2px;
+    text-align: center;
+}
+
+.button-sidebar a {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logout {
+    margin-top: 30px;
+    padding: 12px 40px 12px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+}
+
+.body-member {
+    display: flex;
+}
+
+.body-container {
+
+    width: 100%;
+    height: 568px;
+    background-color: #D2CDCA;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.isibody-member {
+    width: 975px;
+    height: 480px;
+    margin-left: 8px;
+    margin-right: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-isibody-member {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.header-body-member {
+    width: 500px;
+    margin-top: 40px;
+    height: 200px;
+    background-color: orange;
+    transform: scale(1.07);
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-header-body-member {
+    height: 90px;
+    width: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background: url(image/passfoto.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: white solid 4px;
+}
+
+.text-header-body-member {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer-body-member {
+    width: 850px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.sidekiri-member {
+    position: relative;
+    top: 20px;
+    left: 120px;
+    width: 608px;
+    height: 200px;
+    background-color: #D46565;
+    margin-right: 40px;
+    box-shadow: 1px 2px 6px;
+    border-radius: 10px;
+}
+
+.sidekiri-tablemember {
+    width: 550px;
+    left: 150px;
+}
+
+.sidekanan-member {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.sidekanan-member h3 {
+    margin-top: 10px;
+}
+
+.sidekanan-member table {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jumlah {
+    padding-left: 5px;
+}
+
+.sidekanan-member .row1 {
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border: brown solid 3px;
+}
+
+.hadir {
+    background-color: green;
+}
+
+.jumlahhadir {
+    color: green;
+}
+
+.izin {
+    background-color: orange;
+}
+
+.jumlahizin {
+    color: orange;
+}
+
+.sakit {
+    background-color: yellow;
+}
+
+.jumlahsakit {
+    color: yellow;
+}
+
+.thadir {
+    background-color: red;
+}
+
+.jumlahthadir {
+    color: red;
+}
+
+.containertablejadwal {
+    height: 150px;
+    width: 590px;
+    margin-left: 8px;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.containertablejadwal::-webkit-scrollbar {
+    display: none;
+}
+
+.tablejadwal {
+    position: relative;
+    left: -6px;
+}
+
+
+.tablejadwal td {
+    padding: 5px;
+    color: black;
+    text-align: center;
+
+}
+
+.judultable {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.tablejadwal .mata-kuliah {
+    width: 130px;
+    padding: 0px 46px 0px 45.5px;
+    text-align: center;
+}
+
+
+.tablejadwal table {
+    margin: 0px 5px 0px 6px;
+    border-bottom: black solid 2px;
+
+}
+
+.tablejadwal td {
+    border-right: black solid 0.2px;
+    border-bottom: black solid 0.2px;
+    border-collapse: separate;
+}
+
+/* Akhir Tapilan Member */
+
+/* Tampilan Tambah Absen */
+.cardabsen {
+    margin-top: 80px;
+    width: 908px;
+    margin-right: none !important;
+    height: 400px;
+    margin-left: 26px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 1px 2px 6px;
+}
+
+.jadwalkuliah {
+    background-color: #46a7d4;
+}
+
+.cardtambahabsen {
+    margin-top: 100px;
+    width: 908px;
+    margin-right: none !important;
+    height: 400px;
+    margin-left: 20px;
+    background-color: orange;
+}
+
+.button-tableabsen {
+    display: flex;
+    position: relative;
+    top: -70px;
+    margin-left: 30px;
+}
+
+
+
+.button-tableabsen a {
+    margin-top: 100px;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    box-shadow: 0.8px 0.8px 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.button-tableabsen .hapusjadwal {
+    background-color: red;
+}
+
+
+
+.open-button {
+    margin-top: 100px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+
+.containerbodyjadwal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -70px;
+}
+
+.containerbodyjadwaldosen {
+    top: -75px;
+}
+
+.containerbodyjadwalmember {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -70px;
+}
+
+
+.judultableabsen {
+    color: white;
+    position: relative;
+    top: -70px;
+    left: -14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.judultablejadwal {
+    top: -70px;
+    left: -19px;
+}
+
+.judultablejadwalmember {
+    top: 10px;
+}
+
+.judultableabsen td {
+    padding-right: 24px;
+}
+
+.judultableabsen .jam {
+    padding-right: 50px;
+    padding-left: 25px;
+}
+
+
+.judultableabsen .kode_kelas {
+    padding-right: 90px;
+}
+
+.judultableabsen .nama_matkul {
+    padding-right: 130px;
+}
+
+.judultableabsen .nama_dosen {
+    padding-right: 75px;
+}
+
+.judultableabsen .jam_masuk {
+    padding-right: 30px;
+}
+
+.hari {
+    position: relative;
+    left: -10px;
+}
+
+.judultableabsenmember {
+    color: white;
+    position: relative;
+    top: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.judultableabsenmember td {
+    padding-right: 24px;
+}
+
+.judultableabsenmember .jam {
+    padding-right: 50px;
+    padding-left: 25px;
+}
+
+.judultableabsenmember .kode_kelas {
+    padding-right: 90px;
+}
+
+.judultableabsenmember .nama_matkul {
+    padding-right: 130px;
+}
+
+.judultableabsenmember .nama_dosen {
+    padding-right: 75px;
+}
+
+.judultableabsenmember .jam_masuk {
+    padding-right: 30px;
+}
+
+
+
+
+.containertableabsen {
+    width: 920px;
+    height: 270px;
+    border-radius: 10px;
+    position: relative;
+    left: 16px;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+
+.containertablejadwaldosen {
+    height: 280px;
+}
+
+.containertablejadwalmahasiswa {
+    top: 80px;
+}
+
+.containertablejadwalmember {
+    width: 532px;
+}
+
+.containertableabsen::-webkit-scrollbar {
+    display: none;
+}
+
+.containertableabsen div {
+    border-radius: 10px;
+}
+
+.tableabsen {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.kolomjam {
+    width: 70px;
+    color: black;
+    display: flex;
+    height: 40px;
+    margin: 5px 5px 10px 5px;
+    background-color: white;
+}
+
+
+
+.kolomjam p {
+    margin: auto;
+}
+
+.kolomstatus p {
+    font-size: 12px;
+}
+
+.kolomstatus {
+    margin-left: 7px;
+}
+
+
+.kolomkodekelas {
+    width: 114px;
+    height: 40px;
+    margin: 5px 10px 10px 5px;
+    background-color: white;
+    display: flex;
+}
+
+.kolomkodekelas p {
+    color: black;
+    margin: auto;
+
+}
+
+.kolommatkul {
+    width: 210px;
+    height: 40px;
+    margin: 5px 0px 10px 5px;
+    background-color: white;
+    display: flex;
+}
+
+.kolommatkul p {
+    margin: auto;
+    color: black;
+}
+
+.kolomnamadosen {
+    width: 200px;
+    height: 40px;
+    margin: 5px 12px 10px 12px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+}
+
+.kolomnamadosen p {
+    color: black;
+    margin: auto;
+}
+
+.kolommasuk {
+    width: 50px;
+    height: 40px;
+    margin: 5px 26px 10px 3px;
+    background-color: white;
+    display: flex;
+}
+
+.kolommasuk p {
+    color: black;
+    margin: auto;
+}
+
+.kolomselesai {
+    width: 50px;
+    height: 40px;
+    margin: 5px 2px 10px 0px;
+    background-color: white;
+    display: flex;
+}
+
+.kolomselesai p {
+    color: black;
+    margin: auto;
+}
+
+.kolomhari {
+    width: 50px;
+    height: 40px;
+    margin: 5px 0px 10px 10px;
+    background-color: white;
+    display: flex;
+}
+
+.kolomhari p {
+    color: black;
+    margin: auto;
+}
+
+.buttonpengaturantable {
+    width: 50px;
+    height: 40px;
+    margin: 5px 0px 10px 0px;
+    display: flex;
+}
+
+.buttonpengaturantable a {
+    color: black;
+    margin: auto;
+    padding: 5px;
+    background-color: red;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Akhir Tambah Jadwal */
+
+/* Button Tambah Jadwal */
+
+.cardtambahjadwal {
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 210px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.headertambahjadwal {
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    border-bottom: black solid 3px;
+}
+
+.bodytambahjadwal {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    border-radius: 10px;
+
+}
+
+.bodytambahjadwal label {
+    padding-right: 50%;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.bodytambahjadwal input {
+    padding-left: 10px;
+    margin-left: 30px;
+    height: 30px;
+    width: 80%;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bodytambahjadwal .tambah {
+    margin-left: 50%;
+    margin-right: 10px;
+    padding-left: 20px;
+    color: white;
+    background-color: blue;
+    padding-right: 20px;
+}
+
+.bodytambahjadwal button {
+    padding: 13px;
+    font-size: 13px;
+    border-radius: 10px;
+    position: relative;
+    top: -12px;
+    left: 20px;
+    border: none;
+    box-shadow: 0.5px 0.5px 4px;
+
+}
+
+/* Ahkri tambah jadwal */
+
+/* Tampilan tambah absen */
+.headertambahabsen {
+    margin: auto;
+    padding: 0px 10px 10px 10px;
+    border-bottom: black solid 3px;
+}
+
+.cardtambahabsen {
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 210px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.bodytambahabsen select {
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.bodytambahabsen {
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px;
+}
+
+.bodytambahabsen label {
+    padding-right: 50%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.bodytambahabsen input {
+    padding-left: 10px;
+    margin-left: 20px;
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bodytambahabsen .tambah {
+    margin-left: 62%;
+    margin-right: 10px;
+    padding-left: 20px;
+    color: white;
+    background-color: blue;
+    padding-right: 20px;
+}
+
+.bodytambahabsen button {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: none;
+}
+
+@media only screen and (min-width: 1118px) {
+    body {
+        overflow: hidden;
+    }
+
+    .container {
+        width: 30%;
+        position: relative;
+        top: 35px;
+    }
+}
+
+/* Tambah Matkul Ver 2 */
+.bodytambahjadwal select {
+    width: 83%;
+    height: 35px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+
+}
+
+.bodytambahjadwal button {
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-top: 4px;
+    position: relative;
+    top: -12px;
+    left: 20px;
+    border: none;
+    box-shadow: 0.5px 0.5px 4px;
+
+}
